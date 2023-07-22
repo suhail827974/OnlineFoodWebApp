@@ -1,0 +1,84 @@
+/* body{
+    background-color: red;
+} */
+
+
+
+/* Navigation Bar  */
+#navbar{
+    flex-direction: column;
+
+}
+#navbar ul li a{
+    font-size: 1rem;
+    padding: 0px 7px;
+    padding-bottom:8px;
+}
+
+/* Home Section  */
+#home{
+    height:475px;
+    padding: 3px 68px;
+}
+#home::before{
+    height: 560px;
+}
+#home p{
+    font-size: 15px;
+}
+
+/* Service Section  */
+#services{
+    flex-direction:column;
+}
+#service .box{
+    padding:14px;
+    margin:2px 0px;
+    margin-bottom: 20px;
+}
+
+
+/* Client Section  */
+#clients{
+   flex-wrap:wrap;
+}
+.clients-item{
+    padding: 0px;
+    margin: 0px 2px;
+    z-index: -1;
+}
+
+#clients img{
+    width: 60px;
+    height: 60px;
+}
+ 
+
+/* Cantact Us  */
+#contact-box form{
+  width: 65%;
+}
+
+/* Footer  */
+
+
+/* Utilities Classes */
+.h-primary{
+    font-size: 25px;
+}
+.btn{
+    font-size: 15px;
+    padding: 5px 20px;
+}
+.submit-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 100px;
+    margin-bottom: 10px;
+    height: auto;
+    border-radius: 15px;
+    font-size: 20px;
+    cursor: pointer;
+}
